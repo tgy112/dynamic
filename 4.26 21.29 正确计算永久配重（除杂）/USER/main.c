@@ -251,7 +251,7 @@ float myatan(float x,float y)//相位补偿，将atan函数的值域扩为360度
 {
 	if(x>0)
 		{
-			if(y<0) return (atan(y/x) + 3.14159*2);
+			if(y<0) return (atan(y/x) + 3.1459*2);
 			else		return (atan(y/x));
 		}
 	else return (atan(y/x) + 3.14159);
